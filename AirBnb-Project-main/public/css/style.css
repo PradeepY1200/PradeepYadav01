@@ -1,0 +1,153 @@
+body {
+
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+
+}
+
+.container {
+    flex: 1;
+}
+
+.navbar {
+    height: 5rem;
+    background-color: white !important;
+}
+
+.fa-compass {
+    /* color: rgba(15, 146, 228, 0.817); */
+    color: #fe424d;
+    font-size: 2.5rem;
+}
+
+.nav-link {
+    color: black !important;
+}
+
+/* General styles for the footer */
+footer.f-info {
+    display: flex;
+    flex-direction: column;
+    /* Stack items vertically */
+    align-items: center;
+    /* Center items horizontally */
+    padding: 20px;
+    /* Add padding as needed */
+    background-color: #f8f9fa;
+    /* Background color for better visibility */
+    text-align: center;
+    /* Center text within each item */
+}
+
+/* Styles for social media icons */
+footer.f-info .f-info {
+    display: flex;
+    justify-content: center;
+    /* Center icons horizontally */
+    gap: 15px;
+    /* Space between icons */
+    margin-bottom: 10px;
+    /* Space below the icons section */
+}
+
+/* Styles for the footer links */
+footer.f-info .f-info-links {
+    display: flex;
+    justify-content: center;
+    /* Center links horizontally */
+    gap: 15px;
+    /* Space between links */
+}
+
+/* Optional: style for individual links */
+footer.f-info .f-info-links a {
+    color: #007bff;
+    /* Link color */
+    text-decoration: none;
+    /* Remove underline */
+    font-weight: bold;
+    /* Make the font bold */
+}
+
+footer.f-info .f-info-links a:hover {
+    text-decoration: underline;
+    /* Underline on hover */
+}
+
+
+.listing-card {
+    border: none !important;
+    margin-bottom: 2rem !important;
+}
+
+.card-img-top {
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover;
+
+}
+
+.card-body {
+    padding: 0 !important;
+}
+
+.card-text {
+    font-weight: 400 !important;
+}
+
+.listing-link {
+    text-decoration: none;
+}
+
+.card-img-overlay {
+    opacity: 0;
+}
+
+.card-img-overlay:hover {
+    opacity: 0.2;
+    background-color: white;
+}
+
+
+/*new page */
+
+.add-btn {
+    background-color: red !important;
+    border: none !important;
+}
+
+/*new page */
+
+.edit-btn {
+    background-color: red !important;
+    border: none !important;
+}
+
+/* show pages  */
+
+.show-img {
+    height: 30vh;
+}
+
+.btns {
+    display: flex;
+}
+
+.show-card {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.title {
+    padding: 0 !important;
+}
+
+
+/* map */ 
+#map {
+   height: 400px;
+   width: 90vh; 
+}
